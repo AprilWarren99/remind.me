@@ -5,7 +5,7 @@ function Home() {
         <div>
 			<div className='grid h-screen items-center'>
 				<div className='flex flex-col lg:flex-row items-center justify-evenly'>
-					<img src='/images/logo.svg' className='w-3/5 lg:max-w-96'/>
+					<img src='/images/logo.svg' className='w-3/5 lg:max-w-96' alt='remind.me logo' aria-hidden/>
 					<div>
 						<h1 className='text-slate-200 text-3xl lg:text-7xl'>Remind.<span className='text-orange-500'>ME</span></h1>
 						<p className='text-slate-200 text-2xl lg:text-4xl'>To Pick Up Those...</p>
